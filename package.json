@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@axe-core/cli": "^4.4.2",
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@web/dev-server": "^0.1.30",
+    "@web/rollup-plugin-copy": "^0.3.0",
+    "@web/rollup-plugin-html": "^1.10.3",
+    "@web/test-runner": "^0.13.27",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --watch --open",
+    "test": "web-test-runner test/**/*.test.js --node-resolve --watch",
+    "test:a11y": "axe.cmd localhost:8000",
+    "test:eslint": "eslint src/**/*.js",
+    "build": "rollup --config rollup.config.js"
+  }
+}
