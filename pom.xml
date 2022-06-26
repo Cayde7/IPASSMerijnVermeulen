@@ -2,11 +2,6 @@
 
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>nl.hu.ipass</groupId>
-    <artifactId>OrnnMatchUp</artifactId>
-    <version>0.1</version>
-    <packaging>war</packaging>
-    <name>OrnnMatchUp</name>
 
     <build><!-- deze staat er bij jou waarschijnlijk al -->
         <plugins><!-- als deze er bij jou niet staat, maak 'm dan aan, inclusief sluit-tag NA de onderstaande plugin-->
