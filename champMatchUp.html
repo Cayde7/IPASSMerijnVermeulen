@@ -50,130 +50,149 @@
                         <span class="visually-hidden">Close</span>
                     </button>
                 </dialog>
+                <button onclick="history.back()" id="backId">back</button>
             </article>
             <article>
-                <!-- Champ img -->
-                <div>
-                    <img src="./images/akali.jpg">
-                </div>
-                <!-- Champ name -->
-                <div>
-                    <h3>Akali</h3>
-                </div>
-                <!-- Skill level up -->
-                <table>
-                    <tr>
-                        <td>Q</td>
-                        <td id="lvlQ1">1</td>
-                        <td id="lvlQ2"></td>
-                        <td id="lvlQ3"></td>
-                        <td id="lvlQ4">4</td>
-                        <td id="lvlQ5">5</td>
-                        <td id="lvlQ6"></td>
-                        <td id="lvlQ7"></td>
-                        <td id="lvlQ8"></td>
-                        <td id="lvlQ9"></td>
-                        <td id="lvlQ10"></td>
-                        <td id="lvlQ11"></td>
-                        <td id="lvlQ12"></td>
-                        <td id="lvlQ13"></td>
-                        <td id="lvlQ14"></td>
-                        <td id="lvlQ15"></td>
-                        <td id="lvlQ16"></td>
-                        <td id="lvlQ17"></td>
-                        <td id="lvlQ18"></td>
-                    </tr>
-                    <tr>
-                        <td>W</td>
-                        <td id="lvlW1"></td>
-                        <td id="lvlW2">2</td>
-                        <td id="lvlW3"></td>
-                        <td id="lvlW4"></td>
-                        <td id="lvlW5"></td>
-                        <td id="lvlW6"></td>
-                        <td id="lvlW7"></td>
-                        <td id="lvlW8"></td>
-                        <td id="lvlW9"></td>
-                        <td id="lvlW10"></td>
-                        <td id="lvlW11"></td>
-                        <td id="lvlW12"></td>
-                        <td id="lvlW13"></td>
-                        <td id="lvlW14"></td>
-                        <td id="lvlW15"></td>
-                        <td id="lvlW16"></td>
-                        <td id="lvlW17"></td>
-                        <td id="lvlW18"></td>
-                    </tr>
-                    <tr>
-                        <td>E</td>
-                        <td id="lvlE1"></td>
-                        <td id="lvlE2"></td>
-                        <td id="lvlE3">3</td>
-                        <td id="lvlE4"></td>
-                        <td id="lvlE5"></td>
-                        <td id="lvlE6"></td>
-                        <td id="lvlE7"></td>
-                        <td id="lvlE8"></td>
-                        <td id="lvlE9"></td>
-                        <td id="lvlE10"></td>
-                        <td id="lvlE11"></td>
-                        <td id="lvlE12"></td>
-                        <td id="lvlE13"></td>
-                        <td id="lvlE14"></td>
-                        <td id="lvlE15"></td>
-                        <td id="lvlE16"></td>
-                        <td id="lvlE17"></td>
-                        <td id="lvlE18"></td>
-                    </tr>
-                    <tr>
-                        <td>R</td>
-                        <td id="lvlR1"></td>
-                        <td id="lvlR2"></td>
-                        <td id="lvlR3"></td>
-                        <td id="lvlR4"></td>
-                        <td id="lvlR5"></td>
-                        <td id="lvlR6">6</td>
-                        <td id="lvlR7"></td>
-                        <td id="lvlR8"></td>
-                        <td id="lvlR9"></td>
-                        <td id="lvlR10"></td>
-                        <td id="lvlR11"></td>
-                        <td id="lvlR12"></td>
-                        <td id="lvlR13"></td>
-                        <td id="lvlR14"></td>
-                        <td id="lvlR15"></td>
-                        <td id="lvlR16"></td>
-                        <td id="lvlR17"></td>
-                        <td id="lvlR18"></td>
-                    </tr>
-                </table>
-                <!-- Runes -->
-                <div id="runeContainer">
-                    <div>
-                        <h3>Main</h3>
-                        <p>Resolve: Grasp</p>
+                <div id="informationContainer">
+                    <!-- Items -->
+                    <div id="items">
+                        <h4 id="itemContent">Doran's Shield -> Bami's Cinder</h4>
                     </div>
-                    <div>
-                        <h3>Secondairy</h3>
-                        <p>Insperation: Magic Footwear</p>
+
+                    <!-- Champ img -->
+                    <div id="championID">
+                        <img id="imageChamp" src="./images/akali.jpg">
+
+                    <!-- Champ name -->
+                        <h3 id="ChampName">Akali</h3>
                     </div>
-                    <div>
-                        <h3>Base runes</h3>
-                        <p>Attack Speed Mr, MR</p>
+
+                    <!-- Skill level up -->
+                    <table class="ChampTable">
+                        <tr>
+                            <td>Q</td>
+                            <td class="levelUpMiddle" id="lvlQ1">1</td>
+                            <td class="levelUpMiddle" id="lvlQ2"></td>
+                            <td class="levelUpMiddle" id="lvlQ3"></td>
+                            <td class="levelUpMiddle" id="lvlQ4">4</td>
+                            <td class="levelUpMiddle" id="lvlQ5">5</td>
+                            <td class="levelUpMiddle" id="lvlQ6"></td>
+                            <td class="levelUpMiddle" id="lvlQ7">7</td>
+                            <td class="levelUpMiddle" id="lvlQ8">8</td>
+                            <td class="levelUpMiddle" id="lvlQ9">9</td>
+                            <td class="levelUpMiddle" id="lvlQ10">10</td>
+                            <td class="levelUpMiddle" id="lvlQ11">11</td>
+                            <td class="levelUpMiddle" id="lvlQ12">12</td>
+                            <td class="levelUpMiddle" id="lvlQ13">13</td>
+                            <td class="levelUpMiddle" id="lvlQ14">14</td>
+                            <td class="levelUpMiddle" id="lvlQ15">15</td>
+                            <td class="levelUpMiddle" id="lvlQ16">16</td>
+                            <td class="levelUpMiddle" id="lvlQ17">17</td>
+                            <td class="levelUpMiddle" id="lvlQ18">18</td>
+                        </tr>
+                        <tr>
+                            <td>W</td>
+                            <td class="levelUpMiddle" id="lvlW1"></td>
+                            <td class="levelUpMiddle" id="lvlW2">2</td>
+                            <td class="levelUpMiddle" id="lvlW3"></td>
+                            <td class="levelUpMiddle" id="lvlW4"></td>
+                            <td class="levelUpMiddle" id="lvlW5"></td>
+                            <td class="levelUpMiddle" id="lvlW6"></td>
+                            <td class="levelUpMiddle" id="lvlW7"></td>
+                            <td class="levelUpMiddle" id="lvlW8"></td>
+                            <td class="levelUpMiddle" id="lvlW9"></td>
+                            <td class="levelUpMiddle" id="lvlW10"></td>
+                            <td class="levelUpMiddle" id="lvlW11"></td>
+                            <td class="levelUpMiddle" id="lvlW12"></td>
+                            <td class="levelUpMiddle" id="lvlW13"></td>
+                            <td class="levelUpMiddle" id="lvlW14"></td>
+                            <td class="levelUpMiddle" id="lvlW15"></td>
+                            <td class="levelUpMiddle" id="lvlW16"></td>
+                            <td class="levelUpMiddle" id="lvlW17"></td>
+                            <td class="levelUpMiddle" id="lvlW18"></td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td class="levelUpMiddle" id="lvlE1"></td>
+                            <td class="levelUpMiddle" id="lvlE2"></td>
+                            <td class="levelUpMiddle" id="lvlE3">3</td>
+                            <td class="levelUpMiddle" id="lvlE4"></td>
+                            <td class="levelUpMiddle" id="lvlE5"></td>
+                            <td class="levelUpMiddle" id="lvlE6"></td>
+                            <td class="levelUpMiddle" id="lvlE7"></td>
+                            <td class="levelUpMiddle" id="lvlE8"></td>
+                            <td class="levelUpMiddle" id="lvlE9"></td>
+                            <td class="levelUpMiddle" id="lvlE10"></td>
+                            <td class="levelUpMiddle" id="lvlE11"></td>
+                            <td class="levelUpMiddle" id="lvlE12"></td>
+                            <td class="levelUpMiddle" id="lvlE13"></td>
+                            <td class="levelUpMiddle" id="lvlE14"></td>
+                            <td class="levelUpMiddle" id="lvlE15"></td>
+                            <td class="levelUpMiddle" id="lvlE16"></td>
+                            <td class="levelUpMiddle" id="lvlE17"></td>
+                            <td class="levelUpMiddle" id="lvlE18"></td>
+                        </tr>
+                        <tr>
+                            <td>R</td>
+                            <td class="levelUpMiddle" id="lvlR1"></td>
+                            <td class="levelUpMiddle" id="lvlR2"></td>
+                            <td class="levelUpMiddle" id="lvlR3"></td>
+                            <td class="levelUpMiddle" id="lvlR4"></td>
+                            <td class="levelUpMiddle" id="lvlR5"></td>
+                            <td class="levelUpMiddle" id="lvlR6">6</td>
+                            <td class="levelUpMiddle" id="lvlR7"></td>
+                            <td class="levelUpMiddle" id="lvlR8"></td>
+                            <td class="levelUpMiddle" id="lvlR9"></td>
+                            <td class="levelUpMiddle" id="lvlR10"></td>
+                            <td class="levelUpMiddle" id="lvlR11"></td>
+                            <td class="levelUpMiddle" id="lvlR12"></td>
+                            <td class="levelUpMiddle" id="lvlR13"></td>
+                            <td class="levelUpMiddle" id="lvlR14"></td>
+                            <td class="levelUpMiddle" id="lvlR15"></td>
+                            <td class="levelUpMiddle" id="lvlR16"></td>
+                            <td class="levelUpMiddle" id="lvlR17"></td>
+                            <td class="levelUpMiddle" id="lvlR18"></td>
+                        </tr>
+                    </table>
+
+                    <!-- Difficulty -->
+                    <div id="difficulty">
+                        <h3 id="difficultyMeter">Hard</h3>
                     </div>
-                </div>
-                <!-- Items -->
-                <div>
-                    <h4>Doran's Shield -> Bami's Cinder</h4>
-                </div>
-                <!-- Difficulty -->
-                <div>
-                    <h3>Hard</h3>
-                </div>
-                <!-- Tips -->
-                <div>
-                    <h3>Tips:</h3>
-                    <p>So you wanna bully her as much as you can lvl 1-5</p>
+
+                    <!-- Runes -->
+                    <table class="ChampTable">
+                        <tr>
+                            <td class="MainRune" id="main0">Resolve</td>
+                            <td class="SecondRune" id="second0">Insperation</td>
+                        </tr>
+                        <tr>
+                            <td class="MainRune" id="main1">Grasp</td>
+                            <td class="SecondRune" id="second1">Footwear</td>
+                        </tr>
+                        <tr>
+                            <td class="MainRune" id="main2">Demo</td>
+                            <td class="SecondRune" id="second2">Biscuits</td>
+                        </tr>
+                        <tr>
+                            <td class="MainRune" id="main3">WInd</td>
+                            <td class="SecondRune" id="second3">Attack Speed</td>
+                        </tr>
+                        <tr>
+                            <td class="MainRune" id="main3">Over</td>
+                            <td class="SecondRune" id="second4">MR</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="SecondRune" id="second5">MR</td>
+                        </tr>
+                    </table>
+                    
+                    <!-- Tips -->
+                    <div id="tipsContainer">
+                        <h3>Tips:</h3>
+                        <p id="tipText">So you wanna bully her as much as you can lvl 1-5</p>
+                    </div>
                 </div>
             </article>
         </main>

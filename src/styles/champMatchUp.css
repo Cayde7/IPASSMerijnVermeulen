@@ -1,0 +1,45 @@
+#informationContainer {
+    display: grid;
+    grid-template-columns: 70ch auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#championID {
+    width: 10%;
+    text-align: center;
+}
+
+#imageChamp {
+    width: 100%;
+}
+
+.ChampTable {
+    width: 30%;  
+}
+
+.levelUpMiddle {
+    border: 1px solid black;
+}
+
+.MainRune {
+    color: lightgreen;
+}
+
+.SecondRune {
+    color: lightblue;
+}
+
+#items {
+    width: 30%;
+}
+
+#difficulty {
+    width: 5%;
+    color: darkred;
+    text-align: center;
+}
+
+#tipsContainer {
+    width: 40%;
+}
