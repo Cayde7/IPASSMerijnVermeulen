@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ornn Match-ups</title>
+        <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="cssImporter.css" />
+        <script type="module" src="/src/app.js"></script>
+    </head>
+    <body id="page">
+        <main>
+            <article id="training-selection">
+                <button id="loginButton">Login</button>
+                <dialog id="view-login-dialog" class="login-dialog">
+                    <div class="login-content">
+                        <label id="labelUsername" class="labelLogin" for="username">Username</label>
+                        <br>
+                        <input id="username" type="text" placeholder="Username">
+                        <br>
+                        <br>
+                        <label id="labelPassword" class="labelLogin" for="passwordInput">Password</label>
+                        <br>
+                        <input id="passwordInput" type="password" placeholder="Password">
+                    </div>
+                    <button value="cancel" class="dialog-close-button button">
+                        <span class="visually-hidden">Close</span>
+                    </button>
+                </dialog>
+
+                <button id="signUpButton">Sign up</button>
+                <dialog id="view-signUp-dialog" class="signUp-dialog">
+                    <div class="login-content">
+                        <label id="labelSignUpUsername" class="labelLogin" for="username">Username *</label>
+                        <br>
+                        <input id="usernameSignUp" type="text" placeholder="JohnWick">
+                        <br>
+                        <br>
+                        <label id="labelEmail" class="labelLogin" for="emailInput">Email *</label>
+                        <br>
+                        <input id="emailInput" type="email" placeholder="john@wick.com">
+                        <br>
+                        <br>
+                        <label id="labelSignUpPassword" class="labelLogin" for="passwordSignUp">Password *</label>
+                        <br>
+                        <input id="passwordSignUp" type="password" placeholder="123">
+                    </div>
+                    <button value="cancel" class="dialog-close-button button">
+                        <span class="visually-hidden">Close</span>
+                    </button>
+                </dialog>
+            </article>
+            <article>
+                <!-- Champ img -->
+                <div>
+                    <img src="./images/akali.jpg">
+                </div>
+                <!-- Champ name -->
+                <div>
+                    <h3>Akali</h3>
+                </div>
+                <!-- Skill level up -->
+                <table>
+                    <tr>
+                        <td>Q</td>
+                        <td id="lvlQ1">1</td>
+                        <td id="lvlQ2"></td>
+                        <td id="lvlQ3"></td>
+                        <td id="lvlQ4">4</td>
+                        <td id="lvlQ5">5</td>
+                        <td id="lvlQ6"></td>
+                        <td id="lvlQ7"></td>
+                        <td id="lvlQ8"></td>
+                        <td id="lvlQ9"></td>
+                        <td id="lvlQ10"></td>
+                        <td id="lvlQ11"></td>
+                        <td id="lvlQ12"></td>
+                        <td id="lvlQ13"></td>
+                        <td id="lvlQ14"></td>
+                        <td id="lvlQ15"></td>
+                        <td id="lvlQ16"></td>
+                        <td id="lvlQ17"></td>
+                        <td id="lvlQ18"></td>
+                    </tr>
+                    <tr>
+                        <td>W</td>
+                        <td id="lvlW1"></td>
+                        <td id="lvlW2">2</td>
+                        <td id="lvlW3"></td>
+                        <td id="lvlW4"></td>
+                        <td id="lvlW5"></td>
+                        <td id="lvlW6"></td>
+                        <td id="lvlW7"></td>
+                        <td id="lvlW8"></td>
+                        <td id="lvlW9"></td>
+                        <td id="lvlW10"></td>
+                        <td id="lvlW11"></td>
+                        <td id="lvlW12"></td>
+                        <td id="lvlW13"></td>
+                        <td id="lvlW14"></td>
+                        <td id="lvlW15"></td>
+                        <td id="lvlW16"></td>
+                        <td id="lvlW17"></td>
+                        <td id="lvlW18"></td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td id="lvlE1"></td>
+                        <td id="lvlE2"></td>
+                        <td id="lvlE3">3</td>
+                        <td id="lvlE4"></td>
+                        <td id="lvlE5"></td>
+                        <td id="lvlE6"></td>
+                        <td id="lvlE7"></td>
+                        <td id="lvlE8"></td>
+                        <td id="lvlE9"></td>
+                        <td id="lvlE10"></td>
+                        <td id="lvlE11"></td>
+                        <td id="lvlE12"></td>
+                        <td id="lvlE13"></td>
+                        <td id="lvlE14"></td>
+                        <td id="lvlE15"></td>
+                        <td id="lvlE16"></td>
+                        <td id="lvlE17"></td>
+                        <td id="lvlE18"></td>
+                    </tr>
+                    <tr>
+                        <td>R</td>
+                        <td id="lvlR1"></td>
+                        <td id="lvlR2"></td>
+                        <td id="lvlR3"></td>
+                        <td id="lvlR4"></td>
+                        <td id="lvlR5"></td>
+                        <td id="lvlR6">6</td>
+                        <td id="lvlR7"></td>
+                        <td id="lvlR8"></td>
+                        <td id="lvlR9"></td>
+                        <td id="lvlR10"></td>
+                        <td id="lvlR11"></td>
+                        <td id="lvlR12"></td>
+                        <td id="lvlR13"></td>
+                        <td id="lvlR14"></td>
+                        <td id="lvlR15"></td>
+                        <td id="lvlR16"></td>
+                        <td id="lvlR17"></td>
+                        <td id="lvlR18"></td>
+                    </tr>
+                </table>
+                <!-- Runes -->
+                <div id="runeContainer">
+                    <div>
+                        <h3>Main</h3>
+                        <p>Resolve: Grasp</p>
+                    </div>
+                    <div>
+                        <h3>Secondairy</h3>
+                        <p>Insperation: Magic Footwear</p>
+                    </div>
+                    <div>
+                        <h3>Base runes</h3>
+                        <p>Attack Speed Mr, MR</p>
+                    </div>
+                </div>
+                <!-- Items -->
+                <div>
+                    <h4>Doran's Shield -> Bami's Cinder</h4>
+                </div>
+                <!-- Difficulty -->
+                <div>
+                    <h3>Hard</h3>
+                </div>
+                <!-- Tips -->
+                <div>
+                    <h3>Tips:</h3>
+                    <p>So you wanna bully her as much as you can lvl 1-5</p>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

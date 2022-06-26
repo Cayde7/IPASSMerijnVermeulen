@@ -1,0 +1,102 @@
+html {
+    font-family: "Bahnschrift SemiBold";
+    color: white;
+}
+
+#training-selection {
+    grid-area: header;
+    padding: 20px;
+    width: 100%;
+    text-align: right;
+}
+  
+
+#page{
+    display: grid;
+    width: 95vw;
+    height: 100vh;
+}
+
+#container{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    color: white;
+}
+
+#searchContainer {
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    color: white;
+}
+
+#searchBar {
+    width: 98%;
+    margin: 0 auto;
+    color: white;
+}
+
+.championContainer {
+    max-width: 70%;
+    height: 325px;
+    margin: 10px;
+    display: grid;
+    text-align: center;
+}
+
+.champImg {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(65, 90, 154);
+    color: white;
+}
+
+select {
+    background-color: rgb(65, 90, 154);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(116, 18, 33);
+}
+
+button:focus {
+    background-color: rgb(116, 18, 33);
+}
+
+body {
+    background-image: url("/images/unknown.png");
+    background-size: 100% 100%;
+}
+
+a:link {
+    color: rgb(116, 18, 33);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(65 90 154);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(116, 18, 33);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(65 90 154);
+    background-color: transparent;
+    text-decoration: underline;
+}

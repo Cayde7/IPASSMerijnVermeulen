@@ -1,14 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>FEP1 Boilerplate</title>
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ornn Match-ups</title>
+        <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="cssImporter.css" />
         <script type="module" src="/src/app.js"></script>
     </head>
-    <body>
+    <body id="page">
         <main>
-            <h1>Demo</h1>
+            <article id="training-selection">
+                <button id="loginButton">Login</button>
+                <dialog id="view-login-dialog" class="login-dialog">
+                    <div class="login-content">
+                        <label id="labelUsername" class="labelLogin" for="username">Username</label>
+                        <br>
+                        <input id="username" type="text" placeholder="Username">
+                        <br>
+                        <br>
+                        <label id="labelPassword" class="labelLogin" for="passwordInput">Password</label>
+                        <br>
+                        <input id="passwordInput" type="password" placeholder="Password">
+                    </div>
+                    <button value="cancel" class="dialog-close-button button">
+                        <span class="visually-hidden">Close</span>
+                    </button>
+                </dialog>
+
+                <button id="signUpButton">Sign up</button>
+                <dialog id="view-signUp-dialog" class="signUp-dialog">
+                    <div class="login-content">
+                        <label id="labelSignUpUsername" class="labelLogin" for="username">Username *</label>
+                        <br>
+                        <input id="usernameSignUp" type="text" placeholder="JohnWick">
+                        <br>
+                        <br>
+                        <label id="labelEmail" class="labelLogin" for="emailInput">Email *</label>
+                        <br>
+                        <input id="emailInput" type="email" placeholder="john@wick.com">
+                        <br>
+                        <br>
+                        <label id="labelSignUpPassword" class="labelLogin" for="passwordSignUp">Password *</label>
+                        <br>
+                        <input id="passwordSignUp" type="password" placeholder="123">
+                    </div>
+                    <button value="cancel" class="dialog-close-button button">
+                        <span class="visually-hidden">Close</span>
+                    </button>
+                </dialog>
+            </article>
+            <article>
+                <div id="searchContainer">
+                    <input id="searchBar" type="text">
+                    <select>
+                        <option selected>Select your option</option>
+                        <option value="Assassin">Assassin</option>
+                        <option value="Fighter">Fighter</option>
+                        <option value="Mage">Mage</option>
+                        <option value="Marksman">Marksman</option>
+                        <option value="Tank">Tank</option>
+                        <option value="Support">Support</option>
+                    </select>
+                </div>
+                <div id="container">
+                    <div class='championContainer' id="champ0"></div>
+                    <div class='championContainer' id="champ1"></div>
+                    <div class='championContainer' id="champ2"></div>
+                    <div class='championContainer' id="champ3"></div>
+                    <div class='championContainer' id="champ4"></div>
+                    <div class='championContainer' id="champ5"></div>
+                    <div class='championContainer' id="champ6"></div>
+                    <div class='championContainer' id="champ7"></div>
+                    <div class='championContainer' id="champ8"></div>
+                    <div class='championContainer' id="champ9"></div>
+                </div>
+            </article>
         </main>
     </body>
 </html>
