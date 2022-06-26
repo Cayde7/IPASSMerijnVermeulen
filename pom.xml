@@ -10,8 +10,6 @@
 
     <build><!-- deze staat er bij jou waarschijnlijk al -->
         <plugins><!-- als deze er bij jou niet staat, maak 'm dan aan, inclusief sluit-tag NA de onderstaande plugin-->
-
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <executions>
