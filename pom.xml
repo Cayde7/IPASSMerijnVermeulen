@@ -81,8 +81,7 @@
 
     </dependencies>
 
-    <build>
-        <build><!-- deze staat er bij jou waarschijnlijk al -->
+    <build><!-- deze staat er bij jou waarschijnlijk al -->
         <plugins><!-- als deze er bij jou niet staat, maak 'm dan aan, inclusief sluit-tag NA de onderstaande plugin-->
 
             <plugin>
