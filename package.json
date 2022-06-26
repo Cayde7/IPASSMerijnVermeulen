@@ -23,5 +23,8 @@
     "test:a11y": "axe.cmd localhost:8000",
     "test:eslint": "eslint src/**/*.js",
     "build": "rollup --config rollup.config.js"
+  },
+  "dependencies": {
+    "mvn": "^3.5.0"
   }
 }
