@@ -6,12 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ornn Match-ups</title>
         <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="cssImporter.css" />
-        <script type="module" src="./src/app.js"></script>
+        <link rel="stylesheet" href="./cssImporter.css" />
+        <script type="module" src="./app.js"></script>
     </head>
+
     <body id="page">
         <main>
             <article id="training-selection">
+
                 <button id="loginButton">Login</button>
                 <dialog id="view-login-dialog" class="login-dialog">
                     <div class="login-content">
@@ -31,26 +33,35 @@
 
                 <button id="signUpButton">Sign up</button>
                 <dialog id="view-signUp-dialog" class="signUp-dialog">
-                    <div class="login-content">
-                        <label id="labelSignUpUsername" class="labelLogin" for="username">Username *</label>
-                        <br>
-                        <input id="usernameSignUp" type="text" placeholder="JohnWick">
-                        <br>
-                        <br>
-                        <label id="labelEmail" class="labelLogin" for="emailInput">Email *</label>
-                        <br>
-                        <input id="emailInput" type="email" placeholder="john@wick.com">
-                        <br>
-                        <br>
-                        <label id="labelSignUpPassword" class="labelLogin" for="passwordSignUp">Password *</label>
-                        <br>
-                        <input id="passwordSignUp" type="password" placeholder="123">
-                    </div>
-                    <button value="cancel" class="dialog-close-button button">
-                        <span class="visually-hidden">Close</span>
-                    </button>
+                    <form method="dialog" id="POSTInlog">
+                        <div class="login-content">
+                            <label id="labelSignUpUsername" class="labelLogin" for="username">Username *</label>
+                            <br>
+                            <input id="name" name="name" type="text" placeholder="JohnWick">
+                            <br>
+                            <br>
+                            <label id="labelEmail" class="labelLogin" for="emailInput">Email *</label>
+                            <br>
+                            <input id="emailInput" type="email" placeholder="john@wick.com">
+                            <br>
+                            <br>
+                            <label id="labelSignUpPassword" class="labelLogin" for="passwordSignUp">Password *</label>
+                            <br>
+                            <input id="passwordSignUp" type="password" placeholder="123">
+                        </div>
+                        <button value="cancel" class="dialog-close-button button">
+                            <span class="visually-hidden">Close</span>
+                        </button>
+                        <button value="cancel" class="dialog-close-button">
+                            <span class="visually-hidden">Close</span>
+                        </button>
+                        <button value="signUpButton" id="signUpButton" type="submit" class="sumbit-button">
+                            sign Up
+                        </button>
+                    </form>
                 </dialog>
             </article>
+
             <article>
                 <div id="searchContainer">
                     <input id="searchBar" type="text">
@@ -77,6 +88,7 @@
                     <div class='championContainer' id="champ9"></div>
                 </div>
             </article>
+
         </main>
     </body>
 </html>

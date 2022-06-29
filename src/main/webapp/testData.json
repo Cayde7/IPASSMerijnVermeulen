@@ -1,10 +1,28 @@
 {
     "Akali": {
         "information":{
-            "LevelUp": ["W", "E", "Q", "W", "W", "R", "W", "Q", "W", "E", "R", "E", "E", "Q", "Q", "R", "Q", "Q"],
+            "LevelUp":{
+                "level0": "W",
+                "level1": "E",
+                "level2": "Q",
+                "level3": "W",
+                "level4": "W",
+                "level5": "R",
+                "level6": "W",
+                "level7": "Q",
+                "level8": "W",
+                "level9": "E",
+                "level10": "R",
+                "level11": "E",
+                "level12": "E",
+                "level13": "Q",
+                "level14": "Q",
+                "level15": "R",
+                "level16": "Q",
+                "level17": "Q"
+            },
             "Runes_main": ["Resolve", "Grasp", "Demolish", "Second Wind", "Overgrowth"],
-            "Runes_second": ["Inspiration", "Magical Footwear", "Biscuits"],
-            "Runes_base": ["Attack Speed", "MR", "MR"],
+            "Runes_second": ["Inspiration", "Magical Footwear", "Biscuits", "Attack Speed", "MR", "MR"],
             "Items": "Doran's shield -> Bami's Cinder -> Frostfire Gauntlet -> Force of Nature",
             "Difficulty": "Hard",
             "Tips": "So you wanna bully her as much as you can lvl 1-5 with you are stronger than her with grasp as soon as she walks up to cs you auto an run her down as for the lvl 6 if you chatch her with a Q your combo (Q-R-E-R-Auto-W-Auto) should insta kill her or just win the lane for you because it is a true combo if she is awsay from your E just back off and keep farming. You never want her to Q and you run away and bully her when she procs it on minions"
@@ -12,10 +30,16 @@
         "html": "<a href='champMatchUp.html?champion=Akali'><img src='./images/akali.jpg' class='champImg'><h3>Akali</h3></a>"
     },
 
-    "Bel'Veth": {
+    "Bel_Veth": {
         "information":{
-
+            "LevelUp": ["W"],
+            "Runes_main": ["Resolve", "Grasp"],
+            "Runes_second": [],
+            "Runes_base": [],
+            "Items": "Doran's shield",
+            "Difficulty": "Hard",
+            "Tips": "So you wanna bully her as much as you can lvl 1-5 with you are stronger than her with grasp as soon as she walks up to cs you auto an run her down as for the lvl 6 if you chatch her with a Q your combo (Q-R-E-R-Auto-W-Auto) should insta kill her or just win the lane for you because it is a true combo if she is awsay from your E just back off and keep farming. You never want her to Q and you run away and bully her when she procs it on minions"
         },
-        "html": "<a href='champMatchUp.html?champion=Bel'Veth'><img src='./images/bel_veth.jpg' class='champImg'><h3>Bel'Veth</h3></a>"
+        "html": "<a href='champMatchUp.html?champion=Bel_Veth'><img src='./images/bel_veth.jpg' class='champImg'><h3>Bel'Veth</h3></a>"
     }
 }

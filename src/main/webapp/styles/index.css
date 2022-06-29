@@ -73,7 +73,7 @@ button:focus {
 }
 
 body {
-    background-image: url("/images/unknown.png");
+    background-image: url("../images/unknown.png");
     background-size: 100% 100%;
 }
 

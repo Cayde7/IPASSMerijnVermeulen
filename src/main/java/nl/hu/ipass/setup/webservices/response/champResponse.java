@@ -11,7 +11,7 @@ public class champResponse {
     @GET
     @Path("/champMatchUp")
     @Produces("application/json")
-    public Response getCustomer(@PathParam("html") String html){
-        return Response.ok().build();
+    public Response getChamp(@PathParam("html") String html){
+        return Response.ok(200).build();
     }
 }

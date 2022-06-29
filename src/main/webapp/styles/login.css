@@ -17,12 +17,20 @@ dialog::backdrop {
 }
 
 .login-content {
-    width: 300px;
+    width: 175px;
+    text-align: left;
+    margin: 0 auto;
 }
 
 .dialog-close-button {
     top: 1rem;
     right: 1rem;
+    position: absolute;
+}
+
+.sumbit-button {
+    bottom: 1rem;
+    left: 1rem;
     position: absolute;
 }
 

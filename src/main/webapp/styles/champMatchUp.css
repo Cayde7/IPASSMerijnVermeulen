@@ -22,24 +22,15 @@
     border: 1px solid black;
 }
 
-.MainRune {
-    color: lightgreen;
-}
-
-.SecondRune {
-    color: lightblue;
-}
-
 #items {
-    width: 30%;
+    width: 40%;
 }
 
 #difficulty {
     width: 5%;
-    color: darkred;
     text-align: center;
 }
 
 #tipsContainer {
-    width: 40%;
+    width: 100%;
 }
