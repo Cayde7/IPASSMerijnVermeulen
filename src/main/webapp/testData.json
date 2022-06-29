@@ -1,45 +1,50 @@
 {
+    "Sejuani": {
+        "information":{
+            "LevelUp": ["W", "E", "Q", "W", "W", "R", "W", "Q", "W", "E", "R", "E", "E", "Q", "Q", "R", "Q", "Q"],
+            "Runes_main": ["Resolve", "Grasp", "Demolish", "Second Wind", "Unflinching"],
+            "Runes_second": ["Sorcery", "Manaflow", "Transendence", "Attack Speed", "Magic Resist", "Armor"],
+            "Items": "Doran's Shield -> Sunfire -> Abyssal Mask",
+            "Difficulty": "Easy",
+            "Tips": "W her Q. Don't let her get 4 stacks of auto's on you or it stuns. E her Ult"
+        },
+        "html": "<a href='champMatchUp.html?champion=Sejuani' title='Sejuani'><img src='./images/Sejuani.jpg' class='champImg'><h3>Sejuani</h3></a>"
+    },
+    
     "Akali": {
         "information":{
-            "LevelUp":{
-                "level0": "W",
-                "level1": "E",
-                "level2": "Q",
-                "level3": "W",
-                "level4": "W",
-                "level5": "R",
-                "level6": "W",
-                "level7": "Q",
-                "level8": "W",
-                "level9": "E",
-                "level10": "R",
-                "level11": "E",
-                "level12": "E",
-                "level13": "Q",
-                "level14": "Q",
-                "level15": "R",
-                "level16": "Q",
-                "level17": "Q"
-            },
+            "LevelUp": ["W", "E", "Q", "W", "W", "R", "W", "Q", "W", "E", "R", "E", "E", "Q", "Q", "R", "Q", "Q"],
             "Runes_main": ["Resolve", "Grasp", "Demolish", "Second Wind", "Overgrowth"],
-            "Runes_second": ["Inspiration", "Magical Footwear", "Biscuits", "Attack Speed", "MR", "MR"],
+            "Runes_second": ["Inspiration", "Magical Footwear", "Biscuits", "Attack Speed", "Magic Resist", "Magic Resist"],
             "Items": "Doran's shield -> Bami's Cinder -> Frostfire Gauntlet -> Force of Nature",
             "Difficulty": "Hard",
-            "Tips": "So you wanna bully her as much as you can lvl 1-5 with you are stronger than her with grasp as soon as she walks up to cs you auto an run her down as for the lvl 6 if you chatch her with a Q your combo (Q-R-E-R-Auto-W-Auto) should insta kill her or just win the lane for you because it is a true combo if she is awsay from your E just back off and keep farming. You never want her to Q and you run away and bully her when she procs it on minions"
+            "Tips": "So you wanna bully her as much as you can lvl 1-5 with you are stronger than her with grasp as soon as she walks up to cs you auto an run her down as for the lvl 6 if you chatch her with a Q your combo (Q-R-E-R-Auto-W-Auto) should insta kill her or just win the lane for you because it is a true combo if she is awsay from your E just back off and keep farming. You never want her to Q and you run away and bully her when she procs it on minions."
         },
-        "html": "<a href='champMatchUp.html?champion=Akali'><img src='./images/akali.jpg' class='champImg'><h3>Akali</h3></a>"
+        "html": "<a href='champMatchUp.html?champion=Akali' title='Akali'><img src='./images/Akali.jpg' class='champImg'><h3>Akali</h3></a>"
     },
 
-    "Bel_Veth": {
+    "Anivia": {
         "information":{
-            "LevelUp": ["W"],
-            "Runes_main": ["Resolve", "Grasp"],
-            "Runes_second": [],
-            "Runes_base": [],
-            "Items": "Doran's shield",
-            "Difficulty": "Hard",
-            "Tips": "So you wanna bully her as much as you can lvl 1-5 with you are stronger than her with grasp as soon as she walks up to cs you auto an run her down as for the lvl 6 if you chatch her with a Q your combo (Q-R-E-R-Auto-W-Auto) should insta kill her or just win the lane for you because it is a true combo if she is awsay from your E just back off and keep farming. You never want her to Q and you run away and bully her when she procs it on minions"
+            "LevelUp": ["Q", "W", "E", "Q", "Q", "R", "Q", "W", "Q", "W", "R", "W", "W", "E", "E", "R", "E", "E"],
+            "Runes_main": ["Inspiration", "Glacial", "Magic Footwear", "Biscuits", "Cosmic Insight"],
+            "Runes_second": ["Resolve", "Unflinching", "Second Wind", "Attack Damage", "Attack Damage", "Magic Resist"],
+            "Items": "Doran's Shield -> Ruby Crystal -> Null Magic -> Frostfire Gauntlet -> Force Of Nature",
+            "Difficulty": "Medium",
+            "Tips": "Don't get E'd by her when you're slowed. Your E can destroy her wall and knockup people because it counts as terrain. All in her at 6 with jungle and free kill."
         },
-        "html": "<a href='champMatchUp.html?champion=Bel_Veth'><img src='./images/bel_veth.jpg' class='champImg'><h3>Bel'Veth</h3></a>"
+        "html": "<a href='champMatchUp.html?champion=Anivia' title='Anivia'><img src='./images/Anivia.jpg' class='champImg'><h3>Anivia</h3></a>"
+    },
+
+    "Dummy_data": {
+        "information":{
+            "LevelUp": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+            "Runes_main": ["", "", "", "", ""],
+            "Runes_second": ["", "", "", "", "", ""],
+            "Items": "",
+            "Difficulty": "",
+            "Tips": ""
+        },
+        "html": "<a href='champMatchUp.html?champion=Bel_Veth' title='Bel_Veth'><img src='./images/Bel_Veth.jpg' class='champImg'><h3>Bel'Veth</h3></a>"
     }
+    
 }

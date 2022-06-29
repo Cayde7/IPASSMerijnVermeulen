@@ -17,10 +17,18 @@ function champLoaderInformation(){
     const champNameURL = urlParams.get('champion');
     let i;
     for (i = 0; i < 1; i++) {
-        // document.getElementById('champ' + i).innerHTML = jsonData.champNameURL.information;
-        // for(let j = 0; j < Object.keys(jsonData[champNameURL].information.LevelUp).length; j++){
-        //     // console.log(jsonData[champNameURL].information.LevelUp);
-        // }
+        for(let j = 0; j < Object.keys(jsonData[champNameURL].information.LevelUp).length; j++){
+            let levelUpData = jsonData[champNameURL].information.LevelUp[j];
+            if(levelUpData.includes('Q')){
+                document.getElementById('lvlQ' + [j]).innerHTML = [j + 1];
+            } else if(levelUpData.includes('W')){
+                document.getElementById('lvlW' + [j]).innerHTML = [j + 1];
+            }  else if(levelUpData.includes('E')){
+                document.getElementById('lvlE' + [j]).innerHTML = [j + 1];
+            }  else if(levelUpData.includes('R')){
+                document.getElementById('lvlR' + [j]).innerHTML = [j + 1];
+            }
+        }
 
         for(let j = 0; j < Object.keys(jsonData[champNameURL].information.Runes_main).length; j++){
             let champRunes = jsonData[champNameURL].information.Runes_main[j];
