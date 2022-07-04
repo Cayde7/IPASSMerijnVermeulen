@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ornn Match-ups</title>
+        <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="cssImporter.css" />
+        <script type="module" src="./app.js"></script>
+    </head>
+    <body id="page">
+        <main>
+            <article id="top-bar-selection">
+                <label for="username">Merijn</label>
+                <button onclick="history.back()" id="backId">Back</button>
+            </article>
+
+            <article>
+                <div id="personalMatchUps">
+                    <label for="championName">Akali</label>
+                    <label for="matchResult" style="color: rgb(5, 232, 5);">Victory</label>
+                    <button id="addMatchUpButton" class="matchUpButton">Add</button>
+                    <dialog id="addMatchUp-dialog" class="addMatchUp-dialog">
+                        <form method="post" action="addMatchUp" id="POSTInlog">
+                            <div class="add-content">
+                                <label id="championNameLabel" class="labelLogin" for="champName">Champion name *</label>
+                                <br>
+                                <input id="champName" name="champName" type="text" placeholder="Akali">
+                                <br>
+                                <br>
+                                <label id="MatchResultLabel" class="labelLogin" for="MatchResult">Match result *</label>
+                                <br>
+                                <input id="MatchResult" type="text" name="MatchResult" placeholder="Victory/Defeat">
+                            </div>
+                            <button value="addMatchUpButton" id="addMatchUpButton" type="submit" class="sumbit-button">
+                                Add match up
+                            </button>
+                        </form>
+                        <button value="cancel" class="dialog-close-button">
+                            <span class="visually-hidden">Close</span>
+                        </button>
+                    </dialog>
+
+                    <button id="updateButton" class="matchUpButton">Update</button>
+                    <dialog id="update-dialog" class="update-dialog">
+                        <form method="post" action="update" id="POSTInlog">
+                            <div class="update-content">
+                                <label id="championNameLabel" class="labelLogin" for="champName">Champion Name</label>
+                                <br>
+                                <input id="champName" name="champName" type="text" placeholder="Akali">
+                                <br>
+                                <br>
+                                <label id="MatchResultLabel" class="labelLogin" for="MatchResult">Match Result</label>
+                                <br>
+                                <input id="MatchResult" type="text" name="MatchResult" placeholder="Victory/Defeat">
+                            </div>
+                            <button value="updateButton" id="updateButton" type="submit" class="sumbit-button">
+                                Update match up
+                            </button>
+                        </form>
+                        <button value="cancel" class="dialog-close-button">
+                            <span class="visually-hidden">Close</span>
+                        </button>
+                    </dialog>
+
+                    <form method="post">
+                        <button id="deleteButton" class="matchUpButton">Delete</button>
+                    </form>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>

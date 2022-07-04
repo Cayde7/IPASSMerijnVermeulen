@@ -12,7 +12,7 @@
 
     <body id="page">
         <main>
-            <article id="training-selection">
+            <article id="login-selection">
 
                 <button id="loginButton">Login</button>
                 <dialog id="view-login-dialog" class="login-dialog">
@@ -33,21 +33,21 @@
 
                 <button id="signUpButton">Sign up</button>
                 <dialog id="view-signUp-dialog" class="signUp-dialog">
-                    <form method="dialog" id="POSTInlog">
+                    <form method="post" action="signIn" id="POSTInlog">
                         <div class="login-content">
                             <label id="labelSignUpUsername" class="labelLogin" for="username">Username *</label>
                             <br>
-                            <input id="name" name="name" type="text" placeholder="JohnWick">
+                            <input id="username" name="username" type="text" placeholder="JohnWick">
                             <br>
                             <br>
                             <label id="labelEmail" class="labelLogin" for="emailInput">Email *</label>
                             <br>
-                            <input id="emailInput" type="email" placeholder="john@wick.com">
+                            <input id="emailInput" type="email" name="email" placeholder="john@wick.com">
                             <br>
                             <br>
                             <label id="labelSignUpPassword" class="labelLogin" for="passwordSignUp">Password *</label>
                             <br>
-                            <input id="passwordSignUp" type="password" placeholder="123">
+                            <input id="passwordSignUp" type="password" name="password" placeholder="123">
                         </div>
                         <button value="cancel" class="dialog-close-button button">
                             <span class="visually-hidden">Close</span>
@@ -60,6 +60,7 @@
                         </button>
                     </form>
                 </dialog>
+                <!-- <span class="success">${messages.success}</span> -->
             </article>
 
             <article>

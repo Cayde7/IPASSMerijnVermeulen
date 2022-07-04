@@ -3,7 +3,7 @@ html {
     color: white;
 }
 
-#training-selection {
+#login-selection {
     grid-area: header;
     padding: 20px;
     width: 100%;
