@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
-import { } from './model/champLoader.js';
-import { } from './model/dialog.js';
-import { } from './model/signIn.js';
-import { } from './model/searchbar.js';
-import { } from './model/personalMatchUp.js';
+import './model/champLoader.js';
+import './model/dialog.js';
+import './model/signIn.js';
+import './model/searchbar.js';
+import './model/personalMatchUp.js';
